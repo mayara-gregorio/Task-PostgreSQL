@@ -59,7 +59,7 @@ app.post("/tasks", async (req, res) => {
 
     }catch(error){
         console.log(error);
-        res.status(500).send("Não foi possível criar o usuário");
+        res.status(500).send("Não foi possível criar a tarefa");
     }
 })
 
